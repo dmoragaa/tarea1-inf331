@@ -1,0 +1,5 @@
+2020-09-10 15:09:58.863404    a:prueba    b:pruebaaa    resultado:pruebaaa
+2020-09-10 15:11:05.640298    a:hola    b:hola espacio    resultado:hola espacio
+2020-09-10 15:12:01.360572    a:.-./()$$    b:.///\    resultado:.-./()$$
+2020-09-10 15:12:15.063126    a:12312333    b:123    resultado:12312333
+2020-09-10 15:27:20.805200    a:1    b:22    resultado:22
