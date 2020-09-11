@@ -16,3 +16,4 @@
 2020-09-11 18:22:46.219608    a:"aaa"    b:"bb"    resultado:"aaa"
 2020-09-11 18:23:12.917788    a:"aaa"    b:"bb"    resultado:"aaa"
 2020-09-11 18:23:25.357664    a:"aaa"    b:"bb"    resultado:"aaa"
+2020-09-11 18:25:40.795992    a:"hola"    b:"ho"    resultado:"hola"
