@@ -7,15 +7,15 @@ from datetime import datetime
 
 def compareStrings(a, b):
     time = datetime.now()
-    if(len(a) > len(b)):
+    if(len(a.replace(" ", "")) > len(b.replace(" ", ""))):
         res = a
-    elif(len(a) == len(b)):
+    elif(len(a.replace(" ", "")) == len(b.replace(" ", ""))):
         res = "Son del mismo largo"
     else:
         res = b
     f = open('logs.txt','a')
-    f.write(str(time)+'    a:'+ str(a) + '    b:' + str(b) + '    resultado:' 
-            + str(res) + '\n')
+    f.write(str(time) + '    a:"'+ str(a) + '"    b:"' + str(b) + '"    resultado:"' 
+            + str(res) + '"\n')
     f.close()
     return res
 
@@ -25,4 +25,4 @@ stringB = str(input('Ingrese string B: '))
 
 res = compareStrings(stringA, stringB)
 
-print('La cadena más larga es: ', res)
+print('La cadena más larga es: "' + str(res) + '"')
