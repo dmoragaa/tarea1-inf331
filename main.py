@@ -18,11 +18,14 @@ def compareStrings(a, b):
             + str(res) + '"\n')
     f.close()
     return res
-
-
-stringA = str(input('Ingrese string A: '))
-stringB = str(input('Ingrese string B: '))
-
-res = compareStrings(stringA, stringB)
-
-print('La cadena más larga es: "' + str(res) + '"')
+while(True):
+    try: 
+        stringA = str(input('Ingrese string A: '))
+        stringB = str(input('Ingrese string B: '))
+        
+        res = compareStrings(stringA, stringB)
+        
+        print('La cadena más larga es: "' + str(res) + '"')
+    except KeyboardInterrupt:
+        print('\n Interrupción provocada, reiniciando...')
+        continue
