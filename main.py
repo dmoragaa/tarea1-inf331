@@ -26,6 +26,7 @@ while(True):
         res = compareStrings(stringA, stringB)
         
         print('La cadena más larga es: "' + str(res) + '"')
+        break
     except KeyboardInterrupt:
         print('\n Interrupción provocada, reiniciando...')
         continue

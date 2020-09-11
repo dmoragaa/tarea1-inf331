@@ -13,3 +13,6 @@
 2020-09-11 13:07:41.683072    a:"      xx          "    b:"                    x"    resultado:"      xx          "
 2020-09-11 13:07:47.555311    a:""    b:""    resultado:"Son del mismo largo"
 2020-09-11 13:08:05.939232    a:"[0,1,2]"    b:"[0,1]"    resultado:"[0,1,2]"
+2020-09-11 18:22:46.219608    a:"aaa"    b:"bb"    resultado:"aaa"
+2020-09-11 18:23:12.917788    a:"aaa"    b:"bb"    resultado:"aaa"
+2020-09-11 18:23:25.357664    a:"aaa"    b:"bb"    resultado:"aaa"
